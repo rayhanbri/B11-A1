@@ -1,6 +1,63 @@
  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
  /* shared style */
+ .all-title-shared {
+   font-weight: 700;
+   font-size: 40px;
+   text-align: left;
+ }
+
+ .all-description-shared {
+   font-weight: 400;
+   font-size: 16px;
+   text-align: left;
+   color: rgba(14, 14, 14, 0.7);
+
+
+ }
+
+ .shared-bg-1 {
+   background-color: rgb(84, 144, 245, 0.2)
+ }
+
+ .shared-bg-2 {
+   background-color: rgb(198, 228, 214)
+ }
+
+ .shared-bg-3{
+   background-color: rgb(247, 235, 207)
+ }
+
+
+ /* /this is fot button */
+
+ .btn-shared{
+   border-radius: 5px;
+   border: none;
+   color: white;
+   font-weight: 600;
+   font-size: 14px;
+   padding: 11px, 20px, 11px, 20px;
+
+ }
+
+ .btn-bg-1{
+  background-color: rgb(84, 144, 245);
+  height: 30px;
+  width: 110px;
+ }
+ .btn-bg-2{
+  background-color:rgb(9, 161, 92);
+  height: 30px;
+  width: 110px;
+}
+ .btn-bg-3{
+  background-color: rgb(255, 194, 57);
+  height: 30px;
+  width: 110px;
+ }
+
+
 
 
 
@@ -45,9 +102,41 @@
 
  .banner-btn {
 
-  font-size: 20px;
-   background-color: rgba(0, 106, 80, 1.00); 
-  color: white;
-  border: 0px;
-  padding: 30px 50px;
+   font-size: 20px;
+   background-color: rgba(0, 106, 80, 1.00);
+   color: white;
+   border: 0px;
+   padding: 30px 50px;
  }
+
+
+ /* main sharts from here */
+
+ main {
+   max-width: 1280px;
+   margin: 0 auto;
+ }
+
+
+ main section {
+   margin-top: 130px;
+   margin-bottom: 130px;
+ }
+
+
+ /* vision start from here */
+ .vision-container {
+   display: flex;
+   gap: 50px;
+   padding: 30px;
+   
+
+ }
+
+ .vision-mini{
+   border-radius: 10px;
+   padding: 30px;
+ }
+
+
+ 
